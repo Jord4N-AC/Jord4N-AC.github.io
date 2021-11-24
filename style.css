@@ -48,3 +48,47 @@ body {
   margin: 4px;
   border-radius: 3px;
 }
+
+.intro-header {
+  color: #172b4d;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 0;
+  padding-top: 114px;
+}
+.intro-p{
+  color: #344563;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 0;
+}
+
+.lets-connect {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-transform: uppercase;
+}
+
+.social-media-icons {
+  display: flex;
+  justify-content: space-between;
+  width: 170.17px;
+  list-style-type: none;
+  padding: 0;
+}
+
+.i-container {
+  display: inline-block;
+}
+
+.i-container .i1 {
+  display: block;
+}
