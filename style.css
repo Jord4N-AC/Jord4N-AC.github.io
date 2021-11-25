@@ -113,6 +113,25 @@ body {
   padding: 0;
 }
 
+.icon a img {
+  transition: transform .2s;
+}
+
+.icon a img:link {
+  filter: none;
+}
+
+.icon a img:visited {
+  filter: sepia(100%);
+}
+.icon a img:hover {
+  transform: scale(1.3);
+}
+
+.icon a img:active {
+  filter: saturate(8);
+}
+
 .i-container {
   display: inline-block;
 }
