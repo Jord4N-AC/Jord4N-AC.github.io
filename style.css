@@ -13,10 +13,37 @@ body {
 }
 
 #section-1 {
-  background-color: #ffffff;
   height: 718px;
   border-bottom-left-radius: 50px;
   padding: 0 24px 0 24px;
+  background-color: #ffffff;
+  background-image: url("images/background/Ellipse 3.svg"), 
+                    url("images/background/Ellipse 4.svg"), 
+                    url("images/background/Ellipse 5.svg"), 
+                    url("images/background/Ellipse 8.svg"), 
+                    url("images/background/Ellipse 11.svg"), 
+                    url("images/background/Ellipse 12.svg"), 
+                    url("images/background/Ellipse 13.svg"), 
+                    url("images/background/Ellipse 14.svg"), 
+                    url("images/background/Ellipse 15.svg"), 
+                    url("images/background/Rectangle 4.svg"),  
+                    url("images/background/Rectangle 5.svg"), 
+                    url("images/background/Rectangle 6.svg"), 
+                    url("images/background/Rectangle 7.svg;"); 
+  background-repeat: no-repeat;
+  background-position: 323px 152.24px, 
+                       237px 657.1px, 
+                       132.98px 155.81px, 
+                       214px 110px, 
+                       0 161.47px, 
+                       341.76px 546.69px, 
+                       332.18px 540.44px, 
+                       298px 315px, 
+                       53px 645px, 
+                       294px 165.79px, 
+                       191.82px 653px,
+                       0 141.49px, 
+                       127.18px 151.59px;
 }
 
 #not-bar {
@@ -50,16 +77,14 @@ body {
   border-radius: 3px;
 }
 
-.intro-header {
+.intro-header {  
   color: #172b4d;
-  font-weight: bold;
+  font-style: normal;
+  font-weight: bold;  
   font-size: 40px;
   line-height: 52px;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  margin: 0;
   padding-top: 114px;
+  margin: 0;
 }
 .intro-p{
   color: #344563;
