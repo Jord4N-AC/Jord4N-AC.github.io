@@ -72,7 +72,7 @@ body {
 
 .menu-icon {
   cursor: pointer;
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .menu-icon:hover {
@@ -123,7 +123,7 @@ body {
 }
 
 .icon a img {
-  transition: transform .2s;
+  transition: transform 0.2s;
 }
 
 .icon a img:link {
@@ -133,6 +133,7 @@ body {
 .icon a img:visited {
   filter: sepia(100%);
 }
+
 .icon a img:hover {
   transform: scale(1.3);
 }
