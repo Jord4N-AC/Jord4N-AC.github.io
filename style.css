@@ -165,6 +165,7 @@ body {
   grid-auto-flow: row;
   gap: 88px;
   margin-top: 114px;
+  margin-bottom: 114px;
 }
 
 .card {  
@@ -266,19 +267,84 @@ body {
   width: 125px;
   padding: 12px 6px;
   margin-top: 24px;
-  transition: box-shadow 0.4s;
+  transition: box-shadow 0.4s, scale 0.4s;
 }
- .card a:hover {
-   box-shadow: 0 0 9px;
-   transition: font-weight 0.6s;
-   font-weight: 600;
+ .card a:hover,
+ #section-3 .gmr-btn:hover {
+   box-shadow: 0 0 9px;   
+   transform: scale(1.01);
  }
 
- .card a:active {
+ .card a:active,
+ #section-3 .gmr-btn:active {
   background-color: #396df2;
   color: #fff;
 }
 
-.card a:visited {
+.card a:visited,
+#section-3 .gmr-btn:visited {
   color: rgb(95, 85, 85);
 }
+
+/* section 3 */
+#section-3 {
+  background-color: #fff;
+  border-top-right-radius: 50px;
+}
+
+#section-3 .intro-header{
+  padding-bottom: 10px;
+}
+
+#section-3 .gmr-btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #fff;
+  border: 1.5px solid #6070ff;
+  border-radius: 6px;  
+  padding: 12px 6px;
+  margin-top: 5px;
+  transition: box-shadow 0.4s;
+}
+
+#skills {  
+  list-style-type: none;
+  padding: 0px 0 133.85px 0;
+  margin-top: 45px;
+}
+
+#skills li {  
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  font-style: normal;
+  font-weight: 450;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+  padding: 18px 0;
+  margin-right: 25px;
+  transition: transform 0.4s;
+}
+
+#skills li:hover {  
+  transform: scale(1.1);
+}
+
+#skills li span {
+  color: #6e7177;
+  font-size: 35px;
+  font-weight: 600;   
+  transition: transform 0.4s;
+}
+
+#skills li span:hover {  
+  transform: rotate(90deg) scale(1.5);  
+}
+
