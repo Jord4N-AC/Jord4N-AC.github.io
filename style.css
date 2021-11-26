@@ -12,10 +12,15 @@ body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+.padding {
+  padding-left: 24px;
+  padding-right: 24px;
+}
+
 #section-1 {
   height: 718px;
   border-bottom-left-radius: 50px;
-  padding: 0 24px 0 24px;
+  
   background-color: #fff;
   background-image:
     url("images/background/Ellipse 3.svg"),
