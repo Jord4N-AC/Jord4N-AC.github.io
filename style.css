@@ -12,6 +12,10 @@ body {
   font-family: 'Poppins', Arial, Helvetica, sans-serif;
 }
 
+.upper-case {
+  text-transform: uppercase;
+}
+
 .padding {
   padding-left: 24px;
   padding-right: 24px;
@@ -153,4 +157,128 @@ body {
 
 .i-container .i1 {
   display: block;
+}
+
+/* Projects Section */
+#section-2 {
+  display: grid;
+  grid-auto-flow: row;
+  gap: 88px;
+  margin-top: 114px;
+}
+
+.card {  
+  background-color: #fff;
+  border: 1px solid rgb(221, 214, 214);
+  border-radius: 10px;
+  padding: 16px 16px 28px 16px;
+}
+
+.proj-img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.proj-header {  
+  font-style: normal;
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 44px;
+  color: #172b4d;
+}
+
+.features {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 236px;
+}
+
+.features .f1 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #344563;  
+}
+
+.features span {
+  display:inline-block;
+  font-size: 60px;  
+  line-height: 16px;
+  color: #c1c7d0;
+}
+
+.features .f2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.features .f3 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 16px;
+  color: #7a869a;
+}
+
+.card p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.tags {
+  display: flex;
+  justify-content: space-between;
+  width: 203px;
+}
+
+.tags div {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070ff;
+  background-color: #ebebff;
+  padding: 6px 12px;
+  border-radius: 10px;
+}
+
+.card a {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #fff;
+  border: 1.5px solid #6070ff;
+  border-radius: 6px;
+  width: 125px;
+  padding: 12px 6px;
+  margin-top: 24px;
+  transition: box-shadow 0.4s;
+}
+ .card a:hover {
+   box-shadow: 0 0 9px;
+   transition: font-weight 0.6s;
+   font-weight: 600;
+ }
+
+ .card a:active {
+  background-color: #396df2;
+  color: #fff;
+}
+
+.card a:visited {
+  color: rgb(95, 85, 85);
 }
