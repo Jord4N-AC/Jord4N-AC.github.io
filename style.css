@@ -246,9 +246,11 @@ body {
   display: flex;
   justify-content: space-between;
   width: 203px;
+  list-style-type: none;
+  padding: 0;
 }
 
-.tags div {
+.tags li {
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
