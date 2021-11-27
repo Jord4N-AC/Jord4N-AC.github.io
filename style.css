@@ -281,6 +281,7 @@ body {
 
 #section-3 .gmr-btn {
   display: inline-block;
+  width: 130px;
   text-align: center;
   text-decoration: none;
   font-style: normal;
@@ -315,6 +316,9 @@ body {
 
 /* section 3 */
 #section-3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
   background-color: #fff;
   border-top-right-radius: 50px;
 }
