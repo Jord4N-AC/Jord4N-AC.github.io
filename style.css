@@ -24,7 +24,6 @@ body {
 #section-1 {
   height: 718px;
   border-bottom-left-radius: 50px;
-  
   background-color: #fff;
   background-image:
     url("images/background/Ellipse 3.svg"),
@@ -61,6 +60,14 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.card p {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563;
 }
 
 #not-bar p {
@@ -168,7 +175,7 @@ body {
   margin-bottom: 114px;
 }
 
-.card {  
+.card {
   background-color: #fff;
   border: 1px solid rgb(221, 214, 214);
   border-radius: 10px;
@@ -181,7 +188,7 @@ body {
   margin-right: auto;
 }
 
-.proj-header {  
+.proj-header {
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -201,12 +208,12 @@ body {
   font-weight: 600;
   font-size: 13px;
   line-height: 16px;
-  color: #344563;  
+  color: #344563;
 }
 
 .features span {
-  display:inline-block;
-  font-size: 60px;  
+  display: inline-block;
+  font-size: 60px;
   line-height: 16px;
   color: #c1c7d0;
 }
@@ -227,13 +234,13 @@ body {
   color: #7a869a;
 }
 
-.card p {
+/* .card p {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
-}
+} */
 
 .tags {
   display: flex;
@@ -269,14 +276,32 @@ body {
   margin-top: 24px;
   transition: box-shadow 0.4s, scale 0.4s;
 }
- .card a:hover,
- #section-3 .gmr-btn:hover {
-   box-shadow: 0 0 9px;   
-   transform: scale(1.01);
- }
 
- .card a:active,
- #section-3 .gmr-btn:active {
+#section-3 .gmr-btn {
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #fff;
+  border: 1.5px solid #6070ff;
+  border-radius: 6px;
+  padding: 12px 6px;
+  margin-top: 5px;
+  transition: box-shadow 0.4s;
+}
+
+.card a:hover,
+#section-3 .gmr-btn:hover {
+  box-shadow: 0 0 9px;
+  transform: scale(1.01);
+}
+
+.card a:active,
+#section-3 .gmr-btn:active {
   background-color: #396df2;
   color: #fff;
 }
@@ -292,34 +317,17 @@ body {
   border-top-right-radius: 50px;
 }
 
-#section-3 .intro-header{
+#section-3 .intro-header {
   padding-bottom: 10px;
 }
 
-#section-3 .gmr-btn {
-  display: inline-block;
-  text-align: center;
-  text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 17px;
-  line-height: 24px;
-  color: #396df2;
-  background-color: #fff;
-  border: 1.5px solid #6070ff;
-  border-radius: 6px;  
-  padding: 12px 6px;
-  margin-top: 5px;
-  transition: box-shadow 0.4s;
-}
-
-#skills {  
+#skills {
   list-style-type: none;
-  padding: 0px 0 133.85px 0;
+  padding: 0 0 133.85px 0;
   margin-top: 45px;
 }
 
-#skills li {  
+#skills li {
   cursor: pointer;
   display: flex;
   justify-content: space-between;
@@ -333,18 +341,17 @@ body {
   transition: transform 0.4s;
 }
 
-#skills li:hover {  
+#skills li:hover {
   transform: scale(1.1);
 }
 
 #skills li span {
   color: #6e7177;
   font-size: 35px;
-  font-weight: 600;   
+  font-weight: 600;
   transition: transform 0.4s;
 }
 
-#skills li span:hover {  
-  transform: rotate(90deg) scale(1.5);  
+#skills li span:hover {
+  transform: rotate(90deg) scale(1.5);
 }
-
