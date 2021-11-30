@@ -333,3 +333,22 @@ body {
 #skills li span:hover {
   transform: rotate(90deg) scale(1.5);
 }
+
+.contact-form h2 {
+  width: 801px;
+  height: 56px;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin: 87px 24px 32px;
+}
