@@ -350,7 +350,7 @@ body {
 form {
   display: flex;
   flex-direction: column;
-  margin: 87px 24px 32px;
+  
 }
 
 form input {
@@ -359,10 +359,18 @@ form input {
   background: #fff;  
   border-radius: 8px;  
   border: 1px solid #CFD8DC;
+  margin-top: 10px;
 }
 
 form textarea {
   background: #fff;
   border: 1px solid #CFD8DC;
   border-radius: 8px;
+  height: 170px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  padding-top: 20px;
+  width: 327px;
+
 }
+
