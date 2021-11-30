@@ -352,3 +352,17 @@ form {
   flex-direction: column;
   margin: 87px 24px 32px;
 }
+
+form input {
+  width: 327px;
+  height: 48px;
+  background: #fff;  
+  border-radius: 8px;  
+  border: 1px solid #CFD8DC;
+}
+
+form textarea {
+  background: #fff;
+  border: 1px solid #CFD8DC;
+  border-radius: 8px;
+}
