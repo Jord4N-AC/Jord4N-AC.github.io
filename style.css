@@ -357,17 +357,17 @@ body {
   padding: 103px 24px 45px 24px;
 }
 
-.form h2 {
-  width: 801px;
-  height: 56px;
-  font-family: Poppins, sans-serif;
-  font-weight: bold;
-  font-size: 40px;
-  line-height: 52px;
-  display: flex;
-  align-items: center;
+.form h2 {  
   text-align: center;
   color: #fff;
+  margin: 0;
+}
+
+.form p {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #EBEBFF;
 }
 
 form input {  
