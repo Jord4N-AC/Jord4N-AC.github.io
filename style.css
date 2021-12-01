@@ -67,6 +67,13 @@ body {
   font-size: 15px;
 }
 
+.form p {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
 #not-bar p {
   font-size: 14px;
 }
@@ -339,13 +346,13 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #6070ff;
-  background-image: 
+  background-image:
     url("images/background/contactMe/Ellipse 3.svg"),
     url("images/background/contactMe/Ellipse 5.svg"),
     url("images/background/contactMe/Ellipse 12.svg"),
     url("images/background/contactMe/Rectangle 4.svg"),
     url("images/background/contactMe/Rectangle 7.svg");
-    background-position:
+  background-position:
     328px 48.75px,
     253.28px 686.27px,
     153px 55px,
@@ -357,17 +364,10 @@ body {
   padding: 103px 24px 8px 24px;
 }
 
-.form h2 {  
+.form h2 {
   text-align: center;
   color: #fff;
   margin: 0;
-}
-
-.form p {
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
 }
 
 .form input,
@@ -384,20 +384,20 @@ body {
 
 .form ::placeholder {
   font-style: normal;
-  font-weight: normal;  
+  font-weight: normal;
   line-height: 20px;
-  color: #324668; 
+  color: #324668;
 }
 
 .form input[type=text]:hover,
 input[type=email]:hover,
 textarea:hover {
-  box-shadow: 0px 0px 18px #140f22;
+  box-shadow: 0 0 18px #140f22;
 }
 
 .form input[type=text]:focus,
 input[type=email]:focus,
-textarea:focus {  
+textarea:focus {
   outline-color: #1b2b46;
 }
 
@@ -406,7 +406,7 @@ textarea:focus {
   font-style: normal;
   font-weight: normal;
   font-size: 15px;
-  line-height: 24px;  
+  line-height: 24px;
   color: #242933;
   resize: vertical;
 }
@@ -418,7 +418,7 @@ textarea:focus {
   line-height: 24px;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   border: none;
   border-radius: 7px;
   padding: 12px 16px;
