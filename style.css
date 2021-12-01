@@ -67,6 +67,13 @@ body {
   font-size: 15px;
 }
 
+.form p {
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+}
+
 #not-bar p {
   font-size: 14px;
 }
@@ -332,4 +339,114 @@ body {
 
 #skills li span:hover {
   transform: rotate(90deg) scale(1.5);
+}
+
+/* Contact Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #6070ff;
+  background-image:
+    url("images/background/contactMe/Ellipse 3.svg"),
+    url("images/background/contactMe/Ellipse 5.svg"),
+    url("images/background/contactMe/Ellipse 12.svg"),
+    url("images/background/contactMe/Rectangle 4.svg"),
+    url("images/background/contactMe/Rectangle 7.svg");
+  background-position:
+    328px 48.75px,
+    253.28px 686.27px,
+    153px 55px,
+    310px 21px,
+    258.8px 663.97px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 65px;
+  margin: 0 -24px;
+  padding: 103px 24px 8px 24px;
+}
+
+.form h2 {
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+
+.form input,
+.form textarea {
+  background: #fff;
+  box-sizing: border-box;
+  padding: 15px 38px 15px 16px;
+  border-radius: 8px;
+  border: 1px solid #cfd8dc;
+  margin-top: 20px;
+  width: 100%;
+  font-size: 19px;
+}
+
+.form ::placeholder {
+  font-style: normal;
+  font-weight: normal;
+  line-height: 20px;
+  color: #324668;
+}
+
+.form input[type=text]:hover,
+input[type=email]:hover,
+textarea:hover {
+  box-shadow: 0 0 18px #140f22;
+}
+
+.form input[type=text]:focus,
+input[type=email]:focus,
+textarea:focus {
+  outline-color: #1b2b46;
+}
+
+.form textarea {
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #242933;
+  resize: vertical;
+}
+
+.form form button {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 24px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #6070ff;
+  border: none;
+  border-radius: 7px;
+  padding: 12px 16px;
+  margin: 22px 0 0 0;
+  transition: 0.4s;
+}
+
+.form form button:hover {
+  box-shadow: 0 0 15px #140f22;
+  transform: scale(1.02);
+}
+
+.form form button:focus {
+  background-color: #5361da;
+  color: #fff;
+  box-shadow: 0 0 10px #140f22;
+}
+
+#short-line {
+  background-color: #000;
+  height: 5px;
+  width: 134px;
+  border-radius: 4px;
+  margin: 38px auto 0 auto;
+  transition: 0.4s;
+}
+
+#short-line:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
