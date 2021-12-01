@@ -354,7 +354,7 @@ body {
   background-repeat: no-repeat;
   border-top-left-radius: 65px;
   margin: 0 -24px;
-  padding: 103px 24px 45px 24px;
+  padding: 103px 24px 8px 24px;
 }
 
 .form h2 {  
@@ -427,11 +427,26 @@ textarea:focus {
 }
 
 .form form button:hover {
-  box-shadow: 0 0 15px #140f22;  
+  box-shadow: 0 0 15px #140f22;
+  transform: scale(1.02);
 }
 
 .form form button:focus {
   background-color: #5361da;
   color: #fff;
   box-shadow: 0 0 10px #140f22;
+}
+
+#short-line {
+  background-color: #000;
+  height: 5px;
+  width: 134px;
+  border-radius: 4px;
+  margin: 38px auto 0 auto;
+  transition: 0.4s;
+}
+
+#short-line:hover {
+  cursor: pointer;
+  transform: scale(1.2);
 }
