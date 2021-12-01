@@ -334,7 +334,30 @@ body {
   transform: rotate(90deg) scale(1.5);
 }
 
-.contact-form h2 {
+/* Contact Form */
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: #6070ff;
+  background-image: 
+    url("images/background/contactMe/Ellipse 3.svg"),
+    url("images/background/contactMe/Ellipse 5.svg"),
+    url("images/background/contactMe/Ellipse 12.svg"),
+    url("images/background/contactMe/Rectangle 4.svg"),
+    url("images/background/contactMe/Rectangle 7.svg");
+    background-position:
+    328px 48.75px,
+    253.28px 686.27px,
+    153px 55px,
+    310px 21px,
+    258.8px 663.97px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 65px;
+  margin: -24px;
+  padding: 103px 24px 45px 24px;
+}
+
+.form h2 {
   width: 801px;
   height: 56px;
   font-family: Poppins, sans-serif;
@@ -347,17 +370,10 @@ body {
   color: #fff;
 }
 
-form {
-  display: flex;
-  flex-direction: column;
-  
-}
-
-form input {
-  width: 327px;
+form input {  
   height: 48px;
   background: #fff;  
-  border-radius: 8px;  
+  border-radius: 8px;
   border: 1px solid #CFD8DC;
   margin-top: 10px;
 }
@@ -370,7 +386,5 @@ form textarea {
   padding-left: 20px;
   box-sizing: border-box;
   padding-top: 20px;
-  width: 327px;
-
 }
 
