@@ -1,11 +1,11 @@
 html {
-  width: 375px;
+  /* width: 375px; */
 }
 
 body {
   background-color: #e5e5e5;
   height: calc(718px * 1.5);
-  width: 375px;
+  /* width: 375px; */
   margin: 0;
   padding: 0;
   border: 0;
@@ -105,6 +105,10 @@ body {
   width: 21px;
   margin: 4px;
   border-radius: 3px;
+}
+
+#top-menu {
+  display: none;
 }
 
 .header {

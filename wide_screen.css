@@ -1,0 +1,44 @@
+#section-1 {
+  padding: 0;
+}
+
+#not-bar {
+  display: none;
+}
+
+#header .my-logo {
+  align-self: flex-start;
+  padding-left: 8%;
+}
+
+#header .menu-icon {
+  display: none;
+}
+
+#top-menu {
+  display: inline-block;
+  padding-right: 8%;
+}
+
+#top-menu ul {  
+  align-self: flex-end;
+  display: flex;  
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#top-menu ul li {  
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;  
+  color: #344563;
+  margin-left: 32px;
+  transition: 0.3s;
+}
+
+#top-menu ul li:hover {  
+  cursor: pointer;
+  font-weight: bold;
+}
