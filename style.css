@@ -1,11 +1,5 @@
-html {
-  /* width: 375px; */
-}
-
 body {
-  background-color: #e5e5e5;
-  height: calc(718px * 1.5);
-  /* width: 375px; */
+  background-color: #e5e5e5;  
   margin: 0;
   padding: 0;
   border: 0;
@@ -22,8 +16,7 @@ body {
 }
 
 /* Background Page */
-#section-1 {
-  height: 718px;
+#section-1 {  
   border-bottom-left-radius: 50px;
   background-color: #fff;
   background-image:
@@ -55,6 +48,7 @@ body {
     191.82px 653px,
     0 141.49px,
     127.18px 151.59px;
+    padding-bottom: 114px;
 }
 
 #not-bar {

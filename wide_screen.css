@@ -1,5 +1,6 @@
 #section-1 {
   padding: 0;
+  border-bottom-left-radius: 70px;
 }
 
 #not-bar {
@@ -41,4 +42,20 @@
 #top-menu ul li:hover {  
   cursor: pointer;
   font-weight: bold;
+}
+
+#intro {
+  padding: 25% 260px 20% 260px;
+}
+
+#intro .header {
+  padding: 0;
+}
+
+/* Section 2 */
+
+#section-2 {
+  gap: 142px;
+  padding: 142px;
+  margin: 0;
 }
