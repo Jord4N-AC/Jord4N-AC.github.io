@@ -178,7 +178,7 @@ body {
 /* Projects Section */
 #section-2 {
   display: grid;
-  grid-auto-flow: row;
+  grid-template-columns: 1fr;  
   gap: 88px;
   margin-top: 114px;
   margin-bottom: 114px;

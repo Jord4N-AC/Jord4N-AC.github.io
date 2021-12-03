@@ -21,25 +21,25 @@
   padding-right: 8%;
 }
 
-#top-menu ul {  
+#top-menu ul {
   align-self: flex-end;
-  display: flex;  
+  display: flex;
   list-style-type: none;
   margin: 0;
   padding: 0;
 }
 
-#top-menu ul li {  
+#top-menu ul li {
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
-  line-height: 20px;  
+  line-height: 20px;
   color: #344563;
   margin-left: 32px;
   transition: 0.3s;
 }
 
-#top-menu ul li:hover {  
+#top-menu ul li:hover {
   cursor: pointer;
   font-weight: bold;
 }
@@ -53,9 +53,75 @@
 }
 
 /* Section 2 */
-
 #section-2 {
-  gap: 142px;
-  padding: 142px;
-  margin: 0;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 142px 142px;
+  margin: 140px;
+  padding: 0;
+  /* Grid Areas to change the order of Cars on Section 2 */
+  grid-template-areas: 
+    "DvCard3"
+    "DvCard4"
+    "DvCard1"
+    "DvCard2";
 }
+
+.card1 {
+  grid-area: DvCard1;  
+}
+.card2 {
+  grid-area: DvCard2;
+}
+.card3 {
+  grid-area: DvCard3;
+}
+
+.card4 {
+  grid-area: DvCard4;
+}
+/* ------------------------------------------------------- */
+
+.card {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: stretch;
+  align-items: stretch;
+  padding: 0;
+
+}
+
+.card img {  
+  margin: 24px;
+  width: auto;  
+}
+
+/* Grid Areas to change content order on .card1 and .card2  */
+.card2 img,
+.card4 img {
+  grid-area: img;
+}
+
+.card2 .proj-content,
+.card4 .proj-content {
+  grid-area: cont;
+}
+
+.card2, 
+.card4 {
+  grid-template-areas: 
+    "cont img";
+}
+/* ------------------------------------------------------- */
+.card .proj-content {  
+  flex: 1;
+  margin: 24px;
+  padding: 24px;
+}
+
+.proj-content .proj-header {
+  margin-top: 0;
+}
+
+
