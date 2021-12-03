@@ -152,3 +152,38 @@
   margin: 24px auto auto 40px;
 }
 
+/* ------Form------ */
+#section-3 .form {  
+  align-items: center;
+  padding: 142px auto 125px auto;
+  margin: 0;
+}
+
+.form :not(p) {
+  width: 35%;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form p {
+  width: 40%;
+}
+
+.form form input,
+.form form textarea {  
+  border-radius: 0;
+  width: 100%;
+}
+
+.form form button {
+  width: 40%;
+  margin-bottom: 120px;
+}
+
+#short-line {
+  display: none;
+}
