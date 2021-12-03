@@ -80,8 +80,21 @@ body {
 }
 
 #header .my-logo {
+  display: inline-block;
+  text-decoration: none;
   font-weight: bold;
   font-size: 18px;
+  color: #6070ff;
+  transition: all 0.4s;
+}
+
+#header .my-logo:hover {
+  transform: scale(1.4);
+  transform: translate(90px 120px);
+}
+
+#header .my-logo:active {
+  color: #040911;
 }
 
 .menu-icon {
