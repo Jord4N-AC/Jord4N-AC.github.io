@@ -244,7 +244,7 @@ body {
   border-radius: 10px;
 }
 
-#btn {
+.btn {
   display: inline-block;
   text-decoration: none;
   background-color: #fff;
@@ -267,22 +267,22 @@ body {
   width: 130px;
 }
 
-#section-3 #btn:hover,
-.card #btn:hover {
+#section-3 .btn:hover,
+.card .btn:hover {
   color: rgba(255, 255, 255, 0.931);
   background: #6070FF;
   box-shadow: 0 0 9px;
   transform: scale(1.01);
 }
 
-#section-3 #btn:active,
-.card #btn:active {  
+#section-3 .btn:active,
+.card .btn:active {  
   background-color: #2230D2;
   color: rgba(255, 255, 255, 0.931);
 }
 
-#section-3 #btn:disabled,
-.card #btn:disabled {
+#section-3 .btn:disabled,
+.card .btn:disabled {
   color: #5E6C84;
   border: 1px solid #C1C7D0;
 }
@@ -397,7 +397,7 @@ textarea:focus {
   resize: vertical;
 }
 
-.form #btn {  
+.form .btn {  
   border: none;
 }
 
