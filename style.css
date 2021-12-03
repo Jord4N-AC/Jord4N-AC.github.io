@@ -244,22 +244,22 @@ body {
   border-radius: 10px;
 }
 
-.btn {
+#btn {
   display: inline-block;
-  text-align: center;
   text-decoration: none;
-  font-style: normal;
-  font-weight: 500;
+  background-color: #fff;
+  border: 1px solid #7f8cff;
+  font-style: normal;  
+  font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  color: #396df2;
-  background-color: #fff;
-  border: 1.5px solid #6070ff;
-  border-radius: 6px;
-  padding: 12px 6px;
-  margin-top: 24px;
+  text-align: center;
   width: 125px;
-  transition: box-shadow 0.4s, scale 0.4s;
+  color: #6070ff;
+  border-radius: 8px;
+  margin-top: 24px;
+  padding: 12px 6px;
+  transition: all 0.4s;
 }
 
 #section-3 .gmr-button {
@@ -267,18 +267,24 @@ body {
   width: 130px;
 }
 
-.btn:hover {
+#section-3 #btn:hover,
+.card #btn:hover {
+  color: rgba(255, 255, 255, 0.931);
+  background: #6070FF;
   box-shadow: 0 0 9px;
   transform: scale(1.01);
 }
 
-.btn:active {
-  background-color: #396df2;
-  color: #fff;
+#section-3 #btn:active,
+.card #btn:active {  
+  background-color: #2230D2;
+  color: rgba(255, 255, 255, 0.931);
 }
 
-.btn:visited {
-  color: rgb(95, 85, 85);
+#section-3 #btn:disabled,
+.card #btn:disabled {
+  color: #5E6C84;
+  border: 1px solid #C1C7D0;
 }
 
 /* section 3 */
@@ -391,30 +397,8 @@ textarea:focus {
   resize: vertical;
 }
 
-.form form button {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #6070ff;
+.form #btn {  
   border: none;
-  border-radius: 7px;
-  padding: 12px 16px;
-  margin: 22px 0 0 0;
-  transition: 0.4s;
-}
-
-.form form button:hover {
-  box-shadow: 0 0 15px #140f22;
-  transform: scale(1.02);
-}
-
-.form form button:focus {
-  background-color: #5361da;
-  color: #fff;
-  box-shadow: 0 0 10px #140f22;
 }
 
 #short-line {
