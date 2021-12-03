@@ -1,11 +1,5 @@
-html {
-  width: 375px;
-}
-
 body {
   background-color: #e5e5e5;
-  height: calc(718px * 1.5);
-  width: 375px;
   margin: 0;
   padding: 0;
   border: 0;
@@ -23,38 +17,13 @@ body {
 
 /* Background Page */
 #section-1 {
-  height: 718px;
   border-bottom-left-radius: 50px;
   background-color: #fff;
-  background-image:
-    url("images/background/Ellipse 3.svg"),
-    url("images/background/Ellipse 4.svg"),
-    url("images/background/Ellipse 5.svg"),
-    url("images/background/Ellipse 8.svg"),
-    url("images/background/Ellipse 11.svg"),
-    url("images/background/Ellipse 12.svg"),
-    url("images/background/Ellipse 13.svg"),
-    url("images/background/Ellipse 14.svg"),
-    url("images/background/Ellipse 15.svg"),
-    url("images/background/Rectangle 4.svg"),
-    url("images/background/Rectangle 5.svg"),
-    url("images/background/Rectangle 6.svg"),
-    url("images/background/Rectangle 7.svg;");
+  background-image: url("images/background/header_Bg/desktop_bg.svg");
   background-repeat: no-repeat;
-  background-position:
-    323px 152.24px,
-    237px 657.1px,
-    132.98px 155.81px,
-    214px 110px,
-    0 161.47px,
-    341.76px 546.69px,
-    332.18px 540.44px,
-    298px 315px,
-    53px 645px,
-    294px 165.79px,
-    191.82px 653px,
-    0 141.49px,
-    127.18px 151.59px;
+  background-size: 100% 100%;
+  background-position: 0 0;
+  padding-bottom: 114px;
 }
 
 #not-bar {
@@ -86,8 +55,20 @@ body {
 }
 
 #header .my-logo {
+  display: inline-block;
+  text-decoration: none;
   font-weight: bold;
   font-size: 18px;
+  color: #6070ff;
+  transition: all 0.4s;
+}
+
+#header .my-logo:hover {
+  transform: scale(1.4);
+}
+
+#header .my-logo:active {
+  color: #040911;
 }
 
 .menu-icon {
@@ -105,6 +86,10 @@ body {
   width: 21px;
   margin: 4px;
   border-radius: 3px;
+}
+
+#top-menu {
+  display: none;
 }
 
 .header {
@@ -180,7 +165,7 @@ body {
 /* Projects Section */
 #section-2 {
   display: grid;
-  grid-auto-flow: row;
+  grid-template-columns: 1fr;
   gap: 88px;
   margin-top: 114px;
   margin-bottom: 114px;
@@ -260,20 +245,24 @@ body {
 
 .btn {
   display: inline-block;
-  text-align: center;
   text-decoration: none;
+  background-color: #fff;
+  border: 1px solid #7f8cff;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 17px;
   line-height: 24px;
-  color: #396df2;
-  background-color: #fff;
-  border: 1.5px solid #6070ff;
-  border-radius: 6px;
-  padding: 12px 6px;
-  margin-top: 24px;
+  text-align: center;
   width: 125px;
-  transition: box-shadow 0.4s, scale 0.4s;
+  color: #6070ff;
+  border-radius: 8px;
+  margin-top: 24px;
+  padding: 12px 6px;
+  transition: all 0.4s;
+}
+
+.form .btn {
+  border: none;
 }
 
 #section-3 .gmr-button {
@@ -282,17 +271,20 @@ body {
 }
 
 .btn:hover {
+  color: rgba(255, 255, 255, 0.931);
+  background: #6070ff;
   box-shadow: 0 0 9px;
   transform: scale(1.01);
 }
 
 .btn:active {
-  background-color: #396df2;
-  color: #fff;
+  background-color: #2230d2;
+  color: rgba(255, 255, 255, 0.931);
 }
 
-.btn:visited {
-  color: rgb(95, 85, 85);
+.btn:disabled {
+  color: #5e6c84;
+  border: 1px solid #c1c7d0;
 }
 
 /* section 3 */
@@ -349,19 +341,10 @@ body {
   display: flex;
   flex-direction: column;
   background-color: #6070ff;
-  background-image:
-    url("images/background/contactMe/Ellipse 3.svg"),
-    url("images/background/contactMe/Ellipse 5.svg"),
-    url("images/background/contactMe/Ellipse 12.svg"),
-    url("images/background/contactMe/Rectangle 4.svg"),
-    url("images/background/contactMe/Rectangle 7.svg");
-  background-position:
-    328px 48.75px,
-    253.28px 686.27px,
-    153px 55px,
-    310px 21px,
-    258.8px 663.97px;
+  background-image: url("images/background/contactForm_Bg/mobile_bg.svg");
   background-repeat: no-repeat;
+  background-size: 60% 90%;
+  background-position: right bottom;
   border-top-left-radius: 65px;
   margin: 0 -24px;
   padding: 103px 24px 8px 24px;
@@ -412,32 +395,6 @@ textarea:focus {
   line-height: 24px;
   color: #242933;
   resize: vertical;
-}
-
-.form form button {
-  font-style: normal;
-  font-weight: bold;
-  font-size: 17px;
-  line-height: 24px;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #6070ff;
-  border: none;
-  border-radius: 7px;
-  padding: 12px 16px;
-  margin: 22px 0 0 0;
-  transition: 0.4s;
-}
-
-.form form button:hover {
-  box-shadow: 0 0 15px #140f22;
-  transform: scale(1.02);
-}
-
-.form form button:focus {
-  background-color: #5361da;
-  color: #fff;
-  box-shadow: 0 0 10px #140f22;
 }
 
 #short-line {

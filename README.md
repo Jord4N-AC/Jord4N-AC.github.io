@@ -2,8 +2,11 @@
 This is my frist Portfolio Project, in which I will be including all my pojects in order to show my programinng skills, here you could apreciate all my work.
 
 
-## Screenshot
-![portfCap](https://user-images.githubusercontent.com/71242870/143481757-49ded610-cb94-47a4-926d-c509fecfd64b.PNG)
+## Screenshots
+![Template 2-Mobile-Main.svg](https://github.com/Jord4N-AC/my-portfolio/blob/48e5ead779f030b92a612583970a980fe77a2b93/images/portf_screenshot/Template%202-Mobile-Main.svg) 
+
+![Template 2-Main.svg](https://github.com/Jord4N-AC/my-portfolio/blob/48e5ead779f030b92a612583970a980fe77a2b93/images/portf_screenshot/Template%202-Main.svg)
+
 
 ## Built With
 - Major languages
@@ -36,11 +39,16 @@ You can use this project see all my projects, to learn from it, to propose new c
 For deployment please rich out to the owner of this project
 
 ## Authors
-👤 Author1
+👤 Jordan A
 - GitHub: [Jord4N-AC](https://github.com/Jord4N-AC)
 - Twitter: [@jordan12AC](https://twitter.com/jordan12AC)
 - LinkedIn: [Camilo Armijos](https://www.linkedin.com/in/camilo-armijos-2b9648197)
 
+👤 Sahar Abdel Samad
+- GitHub: [Sahar-AbdelSamad](https://github.com/Sahar-AbdelSamad)
+
+👤 Dennis Akagha
+- GitHub: [denscholar](https://github.com/denscholar)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!

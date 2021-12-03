@@ -1,0 +1,199 @@
+#section-1 {
+  padding: 0;
+  border-bottom-left-radius: 70px;
+  background-image: url("images/background/header_Bg/desktop_bg.svg");
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: 100% 100%;
+}
+
+#not-bar {
+  display: none;
+}
+
+#header .my-logo {
+  align-self: flex-start;
+  padding-left: 8%;
+}
+
+#header .menu-icon {
+  display: none;
+}
+
+#top-menu {
+  display: inline-block;
+  padding-right: 8%;
+}
+
+#top-menu ul {
+  align-self: flex-end;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#top-menu ul li a {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #344563;
+  margin-left: 32px;
+  transition: 0.3s;
+}
+
+#top-menu ul li a:hover {
+  font-weight: bold;
+}
+
+#intro {
+  padding: 25% 260px 20% 260px;
+}
+
+#intro .header {
+  padding: 0;
+}
+
+/* Section 2 */
+#section-2 {
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 142px 142px;
+  margin: 140px;
+  padding: 0;
+
+  /* Grid Areas to change the order of Cars on Section 2 */
+  grid-template-areas:
+    "DvCard3"
+    "DvCard4"
+    "DvCard1"
+    "DvCard2";
+}
+
+.card1 {
+  grid-area: DvCard1;
+}
+
+.card2 {
+  grid-area: DvCard2;
+}
+
+.card3 {
+  grid-area: DvCard3;
+}
+
+.card4 {
+  grid-area: DvCard4;
+}
+
+/* ------------------------------------------------------- */
+
+.card {
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: stretch;
+  align-items: stretch;
+  padding: 0;
+}
+
+.card img {
+  margin: 24px;
+  width: auto;
+}
+
+/* Grid Areas to change content order on .card1 and .card2  */
+.card2 img,
+.card4 img {
+  grid-area: img;
+}
+
+.card2 .proj-content,
+.card4 .proj-content {
+  grid-area: cont;
+}
+
+.card2,
+.card4 {
+  grid-template-areas: "cont img";
+}
+
+/* ------------------------------------------------------- */
+.card .proj-content {
+  flex: 1;
+  margin: 24px;
+  padding: 24px;
+}
+
+.proj-content .proj-header {
+  margin-top: 0;
+}
+
+/* ---------Section 3--------- */
+#section-3 {
+  padding: 0;
+}
+
+#section-3 .about-me {
+  display: flex;
+  flex-direction: row;
+  padding: 142px;
+}
+
+.about-me .about-me-content {
+  flex: 1;
+}
+
+#skills {
+  box-sizing: border-box;
+  margin: 24px auto auto 40px;
+}
+
+.about-me #skills {
+  flex: 1.4;
+}
+
+.about-me .intro-header {
+  padding-top: 0;
+}
+
+/* ------Form------ */
+#section-3 .form {
+  align-items: center;
+  padding: 142px 0 125px 0;
+  margin: 0;
+  background-image: url("images/background/contactForm_Bg/desktop_bg.svg");
+  background-repeat: no-repeat;
+  background-position: right top;
+  background-size: 100% 100%;
+}
+
+.form :not(p) {
+  width: 35%;
+}
+
+.form form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form p {
+  width: 40%;
+}
+
+.form form input,
+.form form textarea {
+  border-radius: 0;
+  width: 100%;
+}
+
+.form form button {
+  width: 40%;
+}
+
+#short-line {
+  display: none;
+}
