@@ -124,4 +124,31 @@
   margin-top: 0;
 }
 
+/* ---------Section 3--------- */
+#section-3 {
+  padding: 0;
+}
+
+#section-3 .about-me {
+  display: flex;
+  flex-direction: row;
+  padding: 142px;
+}
+
+.about-me .about-me-content{
+  flex: 1;
+}
+
+.about-me #skills {
+  flex: 1.4;  
+}
+
+.about-me .intro-header {
+  padding-top: 0;
+}
+
+#skills {
+  box-sizing: border-box;
+  margin: 24px auto auto 40px;
+}
 
