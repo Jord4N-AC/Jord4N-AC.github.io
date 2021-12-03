@@ -59,8 +59,9 @@
   gap: 142px 142px;
   margin: 140px;
   padding: 0;
+
   /* Grid Areas to change the order of Cars on Section 2 */
-  grid-template-areas: 
+  grid-template-areas:
     "DvCard3"
     "DvCard4"
     "DvCard1"
@@ -68,11 +69,13 @@
 }
 
 .card1 {
-  grid-area: DvCard1;  
+  grid-area: DvCard1;
 }
+
 .card2 {
   grid-area: DvCard2;
 }
+
 .card3 {
   grid-area: DvCard3;
 }
@@ -80,6 +83,7 @@
 .card4 {
   grid-area: DvCard4;
 }
+
 /* ------------------------------------------------------- */
 
 .card {
@@ -89,12 +93,11 @@
   justify-content: stretch;
   align-items: stretch;
   padding: 0;
-
 }
 
-.card img {  
+.card img {
   margin: 24px;
-  width: auto;  
+  width: auto;
 }
 
 /* Grid Areas to change content order on .card1 and .card2  */
@@ -108,13 +111,13 @@
   grid-area: cont;
 }
 
-.card2, 
+.card2,
 .card4 {
-  grid-template-areas: 
-    "cont img";
+  grid-template-areas: "cont img";
 }
+
 /* ------------------------------------------------------- */
-.card .proj-content {  
+.card .proj-content {
   flex: 1;
   margin: 24px;
   padding: 24px;
@@ -135,16 +138,8 @@
   padding: 142px;
 }
 
-.about-me .about-me-content{
+.about-me .about-me-content {
   flex: 1;
-}
-
-.about-me #skills {
-  flex: 1.4;  
-}
-
-.about-me .intro-header {
-  padding-top: 0;
 }
 
 #skills {
@@ -152,10 +147,18 @@
   margin: 24px auto auto 40px;
 }
 
+.about-me #skills {
+  flex: 1.4;
+}
+
+.about-me .intro-header {
+  padding-top: 0;
+}
+
 /* ------Form------ */
-#section-3 .form {  
+#section-3 .form {
   align-items: center;
-  padding: 142px auto 125px auto;
+  padding: 142px 0 125px 0;
   margin: 0;
 }
 
@@ -174,14 +177,13 @@
 }
 
 .form form input,
-.form form textarea {  
+.form form textarea {
   border-radius: 0;
   width: 100%;
 }
 
 .form form button {
   width: 40%;
-  margin-bottom: 120px;
 }
 
 #short-line {
