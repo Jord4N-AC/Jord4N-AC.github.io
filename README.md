@@ -1,10 +1,14 @@
 # My Portfolio
 This is my frist Portfolio Project, in which I will be including all my pojects in order to show my programinng skills, here you could apreciate all my work.
 
+## Links 
+To see this project live on the browser, click [here](https://jord4n-ac.github.io/)
 
 ## Screenshots
+#### Mobile Version
 ![Template 2-Mobile-Main.svg](https://github.com/Jord4N-AC/my-portfolio/blob/48e5ead779f030b92a612583970a980fe77a2b93/images/portf_screenshot/Template%202-Mobile-Main.svg) 
 
+### Desktop Version
 ![Template 2-Main.svg](https://github.com/Jord4N-AC/my-portfolio/blob/48e5ead779f030b92a612583970a980fe77a2b93/images/portf_screenshot/Template%202-Main.svg)
 
 
