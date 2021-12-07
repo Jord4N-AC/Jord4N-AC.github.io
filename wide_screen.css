@@ -7,6 +7,10 @@
   background-size: 100% 100%;
 }
 
+.p {
+  font-size: 20px !important;
+}
+
 #not-bar {
   display: none;
 }
@@ -70,6 +74,10 @@
     "DvCard4"
     "DvCard1"
     "DvCard2";
+}
+
+.tags li {
+  font-size: 14px !important;
 }
 
 .card1 {
