@@ -111,7 +111,7 @@ body {
   color: #344563;
 }
 
-.intro-p {  
+.intro-p {
   margin: 0;
 }
 
@@ -318,7 +318,7 @@ body {
   transition: transform 0.4s;
 }
 
-#skills li:hover {  
+#skills li:hover {
   transform: translate(5%);
 }
 
