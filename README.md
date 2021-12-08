@@ -2,7 +2,7 @@
 This is my frist Portfolio Project, in which I will be including all my pojects in order to show my programinng skills, here you could apreciate all my work.
 
 ## Links 
-To see this project live on the browser, click [here](https://jord4n-ac.github.io/)
+To see this project live on the browser, click [here](https://jord4n-ac.github.io/my-portfolio/)
 
 ## Screenshots
 #### Mobile Version
@@ -53,6 +53,9 @@ For deployment please rich out to the owner of this project
 
 👤 Dennis Akagha
 - GitHub: [denscholar](https://github.com/denscholar)
+
+👤 David Vergaray
+- GitHub: [Yothu](https://github.com/Yothu)
 
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
