@@ -32,10 +32,6 @@ body {
   align-items: center;
 }
 
-.card p {
-  font-size: 15px;
-}
-
 .form p {
   font-size: 20px;
   line-height: 28px;
@@ -96,7 +92,7 @@ body {
   color: #172b4d;
   font-style: normal;
   font-weight: bold;
-  font-size: 40px;
+  font-size: 3rem;
   line-height: 52px;
 }
 
@@ -106,15 +102,16 @@ body {
   margin: 0;
 }
 
-.p {
+.p,
+.proj-content .p {
   font-style: normal;
   font-weight: normal;
-  line-height: 24px;
+  line-height: 1.5rem;
+  font-size: 1.03rem;
   color: #344563;
 }
 
-.intro-p {
-  font-size: 16px;
+.intro-p {  
   margin: 0;
 }
 
@@ -237,7 +234,7 @@ body {
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
-  color: #1c1f3e;
+  color: #6070ff;
   background-color: #ebebff;
   padding: 6px 12px;
   border-radius: 10px;
@@ -273,7 +270,7 @@ body {
 .btn:hover {
   color: rgba(255, 255, 255, 0.931);
   background: #6070ff;
-  box-shadow: 0 0 9px;
+  box-shadow: 0 0 10px #5bccc6;
   transform: scale(1.01);
 }
 
@@ -321,8 +318,8 @@ body {
   transition: transform 0.4s;
 }
 
-#skills li:hover {
-  transform: scale(1.1);
+#skills li:hover {  
+  transform: translate(5%);
 }
 
 #skills li span {

@@ -9,6 +9,7 @@
 
 .p {
   font-size: 20px !important;
+  line-height: 30px;
 }
 
 #not-bar {
@@ -18,6 +19,7 @@
 #header .my-logo {
   align-self: flex-start;
   padding-left: 8%;
+  font-size: 26px;
 }
 
 #header .menu-icon {
@@ -41,11 +43,11 @@
   text-decoration: none;
   font-style: normal;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 20px;
   line-height: 20px;
   color: #344563;
   margin-left: 32px;
-  transition: 0.3s;
+  transition: all 0.3s;
 }
 
 #top-menu ul li a:hover {
@@ -74,6 +76,10 @@
     "DvCard4"
     "DvCard1"
     "DvCard2";
+}
+
+.tags {
+  width: 70%;
 }
 
 .tags li {
