@@ -76,10 +76,6 @@ body {
   transform: scale(1.4);
 }
 
-.menu-icon:active {
-  display: none;
-}
-
 #top-menu {
   position: absolute;
   width: 100vw;
@@ -93,10 +89,6 @@ body {
 
   transform: translateX(-100%);
   transition: 0.5s;
-}
-
-.menu-active {
-  transform: translateX(0%);
 }
 
 #top-menu ul {

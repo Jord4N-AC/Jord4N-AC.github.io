@@ -1,6 +1,6 @@
-const menuIcon = document.querySelector('.menu-icon');
-const mobileMenu = document.querySelector('#top-menu');
+const menuIcon = document.querySelector(".menu-icon");
+const mobileMenu = document.querySelector(".top-menu");
 
-menuIcon.addEventListener('click', ()=>{
-  mobileMenu.classList.toggle('menu-active');
+menuIcon.addEventListener("click", () => {
+  mobileMenu.style.transform = "translatex(0%)";
 });
