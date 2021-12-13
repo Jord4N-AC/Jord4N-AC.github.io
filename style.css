@@ -40,7 +40,7 @@ body {
 }
 
 #not-bar p {
-  font-size: 14px;
+  font-size: 14px;  
 }
 
 #header {
@@ -76,16 +76,38 @@ body {
   transform: scale(1.4);
 }
 
+.menu-icon:active {
+  display: none;
+}
+
+#top-menu {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  background-color: #6070ffd2;
+  background-image: url("images/icons/closeIcon.svg");
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;  
+}
+
+#top-menu ul {
+  list-style-type: none;
+}
+
+#top-menu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: 600;
+  font-size: 32px;
+}
+
 .bar {
   background-color: #6070ff;
   height: 3px;
   width: 21px;
   margin: 4px;
   border-radius: 3px;
-}
-
-#top-menu {
-  display: none;
 }
 
 .header {
