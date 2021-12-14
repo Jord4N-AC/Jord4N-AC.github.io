@@ -90,6 +90,7 @@ body {
   left: 0;
   transform: translateX(-100%);
   transition: 0.5s;
+  z-index: 1;
 }
 
 #top-menu ul {
@@ -99,9 +100,16 @@ body {
   margin-top: 50px;
 }
 
-#top-menu ul li img {  
+.close-icon {
   cursor: pointer;
-  margin-left: 85vw;
+  margin-left: 80vw;
+  height: 35px;
+  transition: 0.4s;
+}
+
+.close-icon:active,
+.close-icon:hover {
+  transform: scale(1.3);
 }
 
 #top-menu ul li a {
