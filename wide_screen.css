@@ -23,7 +23,7 @@
 }
 
 #header .menu-icon {
-  display: none;
+  display: none !important;
 }
 
 #top-menu {
