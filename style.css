@@ -1,4 +1,4 @@
-html{
+html {
   scroll-behavior: smooth;
 }
 
@@ -85,7 +85,7 @@ body {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-color: #6070ffd2;  
+  background-color: #6070ffd2;
   top: 0;
   left: 0;
   transform: translateX(-100%);
