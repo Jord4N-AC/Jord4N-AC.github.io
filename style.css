@@ -80,20 +80,23 @@ body {
   position: absolute;
   width: 100vw;
   height: 100vh;
-  background-color: #6070ffd2;
-  background-image: url("images/icons/exit-icon.svg");
-  background-repeat: no-repeat;
-  background-position: 80% 3%;
+  background-color: #6070ffd2;  
   top: 0;
   left: 0;
-
   transform: translateX(-100%);
   transition: 0.5s;
 }
 
 #top-menu ul {
+  display: flex;
+  flex-direction: column;
   list-style-type: none;
   margin-top: 50px;
+}
+
+#top-menu ul li img {  
+  cursor: pointer;
+  margin-left: 85vw;
 }
 
 #top-menu ul li a {
