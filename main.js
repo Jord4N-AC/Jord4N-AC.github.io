@@ -27,56 +27,6 @@ links.forEach((link) => {
 
 const popupContent = [
   {
-<<<<<<< HEAD
-    titleProject: 'Tonic',
-    features: ['canopy', 'Back End Dev', '2015'],
-    imgProject: 'images/cardsWorksSection/card1Detail.svg',
-    contentProject: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    links: ['https://jord4n-ac.github.io/my-portfolio/#section-2',
-    'https://github.com/Jord4N-AC/my-portfolio']
-  },
-  {
-    titleProject: 'Multi-Post Stories',
-    features: ['facebook', 'Full Stack Dev', '2015'],
-    imgProject: 'images/cardsWorksSection/card2.svg',
-    contentProject: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    links: ['https://jord4n-ac.github.io/my-portfolio/#section-2',
-    'https://github.com/Jord4N-AC/my-portfolio']
-  },
-  {
-    titleProject: 'Facebook 360',
-    features: ['canopy', 'Full Stack Dev', '2015'],
-    imgProject: 'images/cardsWorksSection/card1Detail.svg',
-    contentProject: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    links: ['https://jord4n-ac.github.io/my-portfolio/#section-2',
-    'https://github.com/Jord4N-AC/my-portfolio']
-  },
-  {
-    titleProject: 'Uber Navigation',
-    features: ['Uber', 'Lead Developer', '2018'],
-    imgProject: 'images/cardsWorksSection/card1Detail.svg',
-    contentProject: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    links: ['https://jord4n-ac.github.io/my-portfolio/#section-2',
-    'https://github.com/Jord4N-AC/my-portfolio']
-  }
-];
-
-
-const button = document.querySelector('#b1');
-button.addEventListener('click', showModal);
-
-function showModal() {    
-    title.textContent = popupContent[0].titleProject;
-    headerContainer.appendChild(title);
-    console.log(popupContent[0]['titleProject']);
-}
-
-
-=======
     titleProject: "Tonic",
 
     features: ["canopy", "Back End Dev", "2015"],
@@ -142,4 +92,3 @@ buttons.forEach((btn, ind) => {
     const modalHtm = ``;
   });
 });
->>>>>>> 4bb606267ab3d89575629cf479da00eb5fe33d0c
