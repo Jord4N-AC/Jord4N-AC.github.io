@@ -64,23 +64,6 @@ const popupContent = [
   }
 ];
 
-const projContent = document.querySelector(".card1 .proj-content");
-
-const popupContainer = document.createElement('div');
-const headerContainer = document.createElement('div');
-
-const title = document.createElement('h2');
-const featuresContainer = document.createElement('ul');
-const f1 = document.createElement('li');
-const f2 = document.createElement('li');
-const f3 = document.createElement('li');
-const img = document.createElement('img');
-const contentContainer = document.createElement('div');
-const p = document.createElement('p');
-const btn = document.createElement('btn');
-
-projContent.appendChild(popupContainer);
-popupContainer.appendChild(headerContainer);
 
 const button = document.querySelector('#b1');
 button.addEventListener('click', showModal);
