@@ -235,7 +235,8 @@ body {
   color: #172b4d;
 }
 
-.features {
+.features,
+.features li {
   display: flex;
   justify-content: space-between;
   align-items: baseline;
@@ -254,7 +255,8 @@ body {
   color: #344563;
 }
 
-.features span {
+.features span,
+.features .dot {
   display: inline-block;
   font-size: 60px;
   line-height: 16px;
@@ -264,7 +266,7 @@ body {
 .tags {
   display: flex;
   justify-content: space-between;
-  width: 203px;
+  width: 225px;
   list-style-type: none;
   padding: 0;
 }
@@ -272,7 +274,7 @@ body {
 .tags li {
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
+  font-size: 1.02rem;
   line-height: 16px;
   color: #6070ff;
   background-color: #ebebff;
@@ -453,4 +455,73 @@ textarea:focus {
 .card:hover {
   transform: scale(1.02);
   box-shadow: 0 0 10px #396df2;
+}
+
+/* MODAL_CONTENT_STYLE */
+.header-container div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header-container .proj-header {
+  margin: 20px 0 10px 0;
+}
+
+.x-icon {
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.4s;
+  width: 20px;
+}
+
+.x-icon:hover {
+  transform: scale(1.5);
+}
+
+.x-icon:active {
+  transform: scale(1);
+}
+
+.header-container .features {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 20px 0;
+}
+
+.modal-container .img-proj {
+  width: 100%;
+}
+
+.content-container p {
+  margin-top: 25px;
+}
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header-container .features {
+  margin-bottom: 25px;
+}
+
+.tech-btns-container .hide {
+  display: none;
+}
+
+.btns-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 24px;
+  padding-top: 27px;
+  border-top: 1.9px solid #d0daec;
+}
+
+.btns-container .btn {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px;
 }
