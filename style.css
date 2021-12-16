@@ -2,13 +2,14 @@ html {
   scroll-behavior: smooth;
 }
 
-body {
+body {  
   background-color: #e5e5e5;
   margin: 0;
   padding: 0;
   border: 0;
   font-family: "Poppins", Arial, Helvetica, sans-serif;
   overflow-x: hidden;
+  box-sizing: border-box;
 }
 
 .upper-case {
@@ -238,7 +239,7 @@ body {
 .features,
 .features li {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between;  
   align-items: baseline;
   width: 236px;
 }
@@ -265,8 +266,9 @@ body {
 
 .tags {
   display: flex;
-  justify-content: space-between;
-  width: 225px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: auto;
   list-style-type: none;
   padding: 0;
 }
@@ -280,6 +282,7 @@ body {
   background-color: #ebebff;
   padding: 6px 12px;
   border-radius: 10px;
+  margin: 5px;
 }
 
 .btn {
@@ -458,6 +461,14 @@ textarea:focus {
 }
 
 /* MODAL_CONTENT_STYLE */
+.modal-container {
+  background-color: #fff;
+  border-radius: 16px;
+  border: 1px solid #9096a1;
+  padding: 30px;
+  margin: 40px;
+}
+
 .header-container div {
   display: flex;
   justify-content: space-between;
@@ -479,7 +490,7 @@ textarea:focus {
 }
 
 .x-icon:active {
-  transform: scale(1);
+  transform: scale(1.2);
 }
 
 .header-container .features {
@@ -488,7 +499,7 @@ textarea:focus {
   margin: 0 0 20px 0;
 }
 
-.modal-container .img-proj {
+.modal-container div .img-proj {  
   width: 100%;
 }
 
@@ -513,6 +524,7 @@ textarea:focus {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
   width: 100%;
   margin-top: 24px;
   padding-top: 27px;
