@@ -85,10 +85,69 @@ const popupContent = [
   //name, description, featured image, technologies, link to live version, link to source.
 ];
 
-const buttons = document.querySelectorAll(".sp-button");
-buttons.forEach((btn, ind) => {
-  btn.addEventListener("click", () => {
-    console.log("clicked");
-    const modalHtm = ``;
+// Form Validation
+
+function showModal(ind) {
+  const section = document.querySelector('#section-2');
+
+  const modalHtml = `
+  <div class="modal-container">
+  <div class="header-container">
+      <div>
+          <h3 class="proj-header">Tonic</h3>
+          <img class="x-icon" src="images/icons/exit-icon-gray.svg" alt="close window icon">
+      </div>
+      <ul class="features">
+          <li class="f f1 upper-case">canopy</li>
+          <li class="dot">.</li>
+          <li class="f f2">BackEndDev</li>
+          <li class="dot">.</li>
+          <li class="f f3">2015</li>
+      </ul>
+  </div>
+  <div class="img-container">
+      <img class="img-proj" src="${popupContent[ind].imgProject}" alt="project1 image modal">
+  </div>
+  <div class="content-container">
+      <p class="p p-proj">
+          A daily selection of privately personalized reads; no accounts or sign-ups required.
+      </p>
+      <div class="tech-btns-container">
+          <ul class="tags">
+              <li>html</li>
+              <li>css</li>
+              <li>javaScript</li>
+              <li class="hide">github</li>
+              <li class="hide">ruby</li>
+              <li class="hide">Bootstraps</li>
+          </ul>
+          <div class="btns-container">
+              <a class="btn sp-button">
+                  See live
+                  <img src="images/cardsWorksSection/see_live_btn.svg" alt="See live icon">
+              </a>
+              <a class="btn sp-button">
+                  See Source
+                  <img src="images/cardsWorksSection/github_btn.svg" alt="Github icon">
+              </a>
+          </div>
+      </div>
+  </div>
+</div>
+`;
+
+  section.insertAdjacentHTML('afterbegin', modalHtml);
+
+  const closeModalIcon = document.querySelector('.x-icon');
+  const modal = document.querySelector('.modal-container');
+
+  closeModalIcon.addEventListener('click', () => {
+    modal.remove()
+  });
+}
+
+document.querySelectorAll('.sp-button').forEach((btn, ind) => {
+  btn.addEventListener('click', () => {
+    showModal(ind);
   });
 });

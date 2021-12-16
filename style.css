@@ -467,6 +467,13 @@ textarea:focus {
   border: 1px solid #9096a1;
   padding: 30px;
   margin: 40px;
+  margin-left: 0;
+  position: absolute;
+  transform: translate(-50%,50%);
+  top: 50%;
+  left: 50%;
+  z-index: 5;
+  width: 80%;
 }
 
 .header-container div {
