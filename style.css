@@ -543,4 +543,15 @@ textarea:focus {
 }
 
 /* Email Validation */
+#contact form .show {
+  display: inline-block;
+  font-size: medium;
+  background-color: #2f65c3;
+  color: rgb(60, 255, 0);
+  border: 3px solid #aebad3;
+  border-radius: 5px;
+  margin-top: 12px;
+  padding: 10px;
+  z-index: 2;
+}
 
