@@ -177,7 +177,7 @@ function showMsg() {
       msg.textContent = "E-mail should be in Lower Case, Form not sent";
       msg.classList.add("show");
     } else {
-      msg.classList.add("noShow");
+      form.submit();
     }
   });
 }
