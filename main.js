@@ -20,5 +20,5 @@ menuIcon.addEventListener('click', display);
 closeIcon.addEventListener('click', disapear);
 
 links.forEach((link) => {
-  link.addEventListener('click', disapear);
+  link.addEventListener('click', display);
 });
