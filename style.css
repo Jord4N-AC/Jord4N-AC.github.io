@@ -541,3 +541,15 @@ textarea:focus {
   align-items: center;
   margin: 10px;
 }
+
+/* Email Validation */
+#contact form .show {
+  background-color: #324668;
+  color: rgb(180, 24, 24);
+  border: #242933;
+  z-index: 2;
+}
+
+#contact form .noShow {
+  z-index: -1;
+}
