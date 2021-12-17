@@ -160,3 +160,20 @@ document.querySelectorAll('.sp-button').forEach((btn, ind) => {
     showModal(ind);
   });
 });
+
+// CONTACT FORM VALIDATION
+const form = document.forms[0];
+const email = form.elements['email'];
+const submit = form.elements['button'];
+const msg = form.elements['small'];
+
+function showMsg() {
+  if(!email.value.toLowerCase()) {
+    msg.textContent = 'E-mail should be in Lower Case, Form not sent';
+    msg.toggleClass('show');
+  } else {
+    msg.toggleClass('noShow');
+  }
+}
+
+submit.addEventListener('submit', showMsg);
