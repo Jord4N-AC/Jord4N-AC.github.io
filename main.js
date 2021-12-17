@@ -33,13 +33,13 @@ const popupContent = [
     technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
     links: [
       'https://jord4n-ac.github.io/my-portfolio/#section-2',
-      'https://github.com/Jord4N-AC/my-portfolio'
+      'https://github.com/Jord4N-AC/my-portfolio',
     ],
     icons: [
       'images/icons/exit-icon-gray.svg', // x-Icon
       'images/cardsWorksSection/see_live_btn.svg',
-      'images/cardsWorksSection/github_btn.svg'
-    ]
+      'images/cardsWorksSection/github_btn.svg',
+    ],
   },
   {
     titleProject: 'Multi-Post Stories',
@@ -50,13 +50,13 @@ const popupContent = [
     technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
     links: [
       'https://jord4n-ac.github.io/my-portfolio/#section-2',
-      'https://github.com/Jord4N-AC/my-portfolio'
+      'https://github.com/Jord4N-AC/my-portfolio',
     ],
     icons: [
       'images/icons/exit-icon-gray.svg', // x-Icon
       'images/cardsWorksSection/see_live_btn.svg',
-      'images/cardsWorksSection/github_btn.svg'
-    ]
+      'images/cardsWorksSection/github_btn.svg',
+    ],
   },
   {
     titleProject: 'Facebook 360',
@@ -67,13 +67,13 @@ const popupContent = [
     technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
     links: [
       'https://jord4n-ac.github.io/my-portfolio/#section-2',
-      'https://github.com/Jord4N-AC/my-portfolio'
+      'https://github.com/Jord4N-AC/my-portfolio',
     ],
     icons: [
       'images/icons/exit-icon-gray.svg', // x-Icon
       'images/cardsWorksSection/see_live_btn.svg',
-      'images/cardsWorksSection/github_btn.svg'
-    ]
+      'images/cardsWorksSection/github_btn.svg',
+    ],
   },
   {
     titleProject: 'Uber Navigation',
@@ -84,20 +84,20 @@ const popupContent = [
     technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
     links: [
       'https://jord4n-ac.github.io/my-portfolio/#section-2',
-      'https://github.com/Jord4N-AC/my-portfolio'
+      'https://github.com/Jord4N-AC/my-portfolio',
     ],
     icons: [
       'images/icons/exit-icon-gray.svg',
       'images/cardsWorksSection/see_live_btn.svg',
-      'images/cardsWorksSection/github_btn.svg'
-    ]
+      'images/cardsWorksSection/github_btn.svg',
+    ],
   },
 ];
 
 // Form Validation
 
 function showModal(ind) {
-  const section = document.querySelectorAll(".card");
+  const section = document.querySelectorAll('.card');
 
   const modalHtml = `
       <div class="modal-container">
@@ -144,8 +144,8 @@ function showModal(ind) {
           </div>
       </div>
   `;
-  
-  section[ind].insertAdjacentHTML('afterbegin', modalHtml);  
+
+  section[ind].insertAdjacentHTML('afterbegin', modalHtml);
 
   const closeModalIcon = document.querySelector('.x-icon');
   const modal = document.querySelector('.modal-container');
@@ -156,7 +156,7 @@ function showModal(ind) {
 }
 
 document.querySelectorAll('.sp-button').forEach((btn, ind) => {
-  btn.addEventListener('click', () => {    
+  btn.addEventListener('click', () => {
     showModal(ind);
   });
 });

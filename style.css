@@ -2,7 +2,7 @@ html {
   scroll-behavior: smooth;
 }
 
-body {  
+body {
   background-color: #e5e5e5;
   margin: 0;
   padding: 0;
@@ -43,6 +43,12 @@ body {
   line-height: 28px;
   text-align: center;
   color: #ebebff;
+}
+
+.content-container p {
+  margin-top: 25px;
+  overflow-y: scroll;
+  height: 20vh;
 }
 
 #not-bar p {
@@ -239,7 +245,7 @@ body {
 .features,
 .features li {
   display: flex;
-  justify-content: space-between;  
+  justify-content: space-between;
   align-items: baseline;
   width: 236px;
 }
@@ -465,7 +471,7 @@ textarea:focus {
   background-color: #fff;
   border-radius: 16px;
   border: 1px solid #9096a1;
-  padding: 30px;  
+  padding: 30px;
   position: absolute;
   transform: scale(0.9);
   box-sizing: border-box;
@@ -501,26 +507,17 @@ textarea:focus {
   list-style: none;
   padding: 0;
   margin: 0 0 20px 0;
+  margin-bottom: 25px;
 }
 
-.modal-container div .img-proj {  
+.modal-container div .img-proj {
   width: 60vw;
   height: 30vh;
-}
-
-.content-container p {
-  margin-top: 25px;
-  overflow-y: scroll;
-  height: 20vh;
 }
 
 .content-container {
   display: flex;
   flex-direction: column;
-}
-
-.header-container .features {
-  margin-bottom: 25px;
 }
 
 .tech-btns-container .hide {
@@ -540,7 +537,7 @@ textarea:focus {
 
 .btns-container .btn {
   display: flex;
-  justify-content: space-around; 
+  justify-content: space-around;
   align-items: center;
   margin: 10px;
 }

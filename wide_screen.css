@@ -64,12 +64,10 @@
 
 /* Section 2 */
 #section-2 {
-  box-sizing: padding-box;
   justify-content: center;
   gap: 142px 142px;
   margin: 140px;
   padding: 0;
-  /* width: 100vw; */
 
   /* Grid Areas to change the order of Cars on Section 2 */
   grid-template-areas:
@@ -77,10 +75,6 @@
     "DvCard4"
     "DvCard1"
     "DvCard2";
-}
-
-.tags {
-  /* width: 70%; */
 }
 
 .tags li {
