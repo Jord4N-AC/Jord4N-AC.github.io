@@ -57,6 +57,12 @@ For deployment please rich out to the owner of this project
 👤 David Vergaray
 - GitHub: [Yothu](https://github.com/Yothu)
 
+👤 Nicolas G
+- GitHub: [Nicolaswg](https://github.com/Nicolaswg)
+
+👤 Kyrillos Hany
+- GitHub: [Bondok6](https://github.com/Bondok6)
+
 ## 🤝 Contributing
 Contributions, issues, and feature requests are welcome!
 
