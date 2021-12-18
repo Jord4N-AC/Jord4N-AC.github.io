@@ -113,8 +113,7 @@ const popupContent = [
   },
 ];
 
-// Form Validation
-
+// MODAL WINDOW
 function showModal(ind) {
   const section = document.querySelectorAll('.card');
 
