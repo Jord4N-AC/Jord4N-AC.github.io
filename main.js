@@ -23,15 +23,16 @@ links.forEach((link) => {
   link.addEventListener("click", disapear);
 });
 
-// Popup Detail Window
+// Popup Detail Window and Section 2 Content
 const popupContent = [
   {
-    titleProject: "Tonic",
-    features: ["canopy", "BackEndDev", "2015"],
-    imgProject: "images/cardsWorksSection/card1Detail.svg",
+    titleProject: 'Tonic',
+    features: ['canopy', 'BackEndDev', '2015'],
+    imgProject: 'images/cardsWorksSection/card1Detail.svg',
     contentProject:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-    technologies: ["html", "css", "javaScript", "github", "ruby", "Bootstraps"],
+      ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+        'A daily selection of privately personalized reads; no accounts or sign-ups required.'],
+    technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
     links: [
       "https://jord4n-ac.github.io/my-portfolio/#section-2",
       "https://github.com/Jord4N-AC/my-portfolio",
@@ -40,16 +41,21 @@ const popupContent = [
       "images/icons/exit-icon-gray.svg", // x-Icon
       "images/cardsWorksSection/see_live_btn.svg",
       "images/cardsWorksSection/github_btn.svg",
+    ],
+    btnText: [
+      'See Project',
+      'See&nbsp;live',
+      'See&nbsp;Source',
     ],
   },
   {
-    titleProject: "Multi-Post Stories",
-    features: ["facebook", "FullStackDev", "2015"],
-    imgProject: "images/cardsWorksSection/card2.svg",
+    titleProject: 'Multi-Post Stories',
+    features: ['facebook', 'FullStackDev', '2015'],
+    imgProject: 'images/cardsWorksSection/card2.svg',
     contentProject:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-
-    technologies: ["html", "css", "javaScript", "github", "ruby", "Bootstraps"],
+      ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+        'A daily selection of privately personalized reads; no accounts or sign-ups required.'],
+    technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
     links: [
       "https://jord4n-ac.github.io/my-portfolio/#section-2",
       "https://github.com/Jord4N-AC/my-portfolio",
@@ -58,24 +64,30 @@ const popupContent = [
       "images/icons/exit-icon-gray.svg", // x-Icon
       "images/cardsWorksSection/see_live_btn.svg",
       "images/cardsWorksSection/github_btn.svg",
+    ],
+    btnText: [
+      'See Project',
     ],
   },
   {
-    titleProject: "Facebook 360",
-    features: ["canopy", "FullStackDev", "2015"],
-    imgProject: "images/cardsWorksSection/card3.svg",
+    titleProject: 'Facebook 360',
+    features: ['canopy', 'FullStackDev', '2015'],
+    imgProject: 'images/cardsWorksSection/card3.svg',
     contentProject:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-
-    technologies: ["html", "css", "javaScript", "github", "ruby", "Bootstraps"],
+    ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.'],
+    technologies: ['html', 'css', 'javaScript', 'github', 'ruby', 'Bootstraps'],
     links: [
       "https://jord4n-ac.github.io/my-portfolio/#section-2",
       "https://github.com/Jord4N-AC/my-portfolio",
     ],
     icons: [
-      "images/icons/exit-icon-gray.svg", // x-Icon
-      "images/cardsWorksSection/see_live_btn.svg",
-      "images/cardsWorksSection/github_btn.svg",
+      'images/icons/exit-icon-gray.svg',
+      'images/cardsWorksSection/see_live_btn.svg',
+      'images/cardsWorksSection/github_btn.svg',
+    ],
+    btnText: [
+      'See Project',
     ],
   },
   {
@@ -83,8 +95,8 @@ const popupContent = [
     features: ["Uber", "LeadDeveloper", "2018"],
     imgProject: "images/cardsWorksSection/card4.svg",
     contentProject:
-      "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
-
+    ["Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea",
+      'A daily selection of privately personalized reads; no accounts or sign-ups required.'],      
     technologies: ["html", "css", "javaScript", "github", "ruby", "Bootstraps"],
     links: [
       "https://jord4n-ac.github.io/my-portfolio/#section-2",
@@ -95,6 +107,9 @@ const popupContent = [
       "images/cardsWorksSection/see_live_btn.svg",
       "images/cardsWorksSection/github_btn.svg",
     ],
+    btnText: [
+      'See Project',
+    ],
   },
 ];
 
@@ -104,7 +119,7 @@ function showModal(ind) {
   const section = document.querySelectorAll(".card");
 
   const modalHtml = `
-      <div class="modal-container">
+      <div class="modal-container" style="filter: blur(0px);">
           <div class="header-container">
               <div>
                   <h3 class="proj-header">${popupContent[ind].titleProject}</h3>
@@ -136,11 +151,11 @@ function showModal(ind) {
                   </ul>
                   <div class="btns-container">
                       <a class="btn sp-button" href="${popupContent[ind].links[0]}">
-                          See live
+                          ${popupContent[0].btnText[1]}
                           <img src="${popupContent[ind].icons[1]}" alt="See live icon">
                       </a>
                       <a class="btn sp-button" href="${popupContent[ind].links[1]}">
-                          See Source
+                          ${popupContent[0].btnText[2]}
                           <img src="${popupContent[ind].icons[2]}" alt="Github icon">
                       </a>
                   </div>
@@ -164,6 +179,45 @@ document.querySelectorAll(".sp-button").forEach((btn, ind) => {
     showModal(ind);
   });
 });
+
+function createCard() {
+  const cardSection = document.querySelector('#section-2');
+  for (let i = popupContent.length - 1; i >= 0; i -= 1) {
+    const card = `
+    <div id="card${i + 1}" class="card card${i + 1}">
+    <img class="img-proj" src="${popupContent[i].imgProject}" alt="Project 1 Image">
+    <div class="proj-content">
+        <h3 class="proj-header">${popupContent[i].titleProject}</h3>
+        <div class="features">
+            <div class="f f1 upper-case">${popupContent[i].features[0]}</div>
+            <span>.</span>
+            <div class="f f2">${popupContent[i].features[1]}</div>
+            <span>.</span>
+            <div class="f f3">${popupContent[i].features[2]}</div>
+        </div>
+        <p class="p p-proj">${popupContent[i].contentProject[1]}</p>
+        <ul class="tags">
+            <li>${popupContent[i].technologies[0]}</li>
+            <li>${popupContent[i].technologies[1]}</li>
+            <li>${popupContent[i].technologies[3]}</li>
+        </ul>
+        <a href="#card${i + 1}" class="btn sp-button">${popupContent[i].btnText[0]}</a>
+    </div>
+  </div>
+    `;
+
+    cardSection.insertAdjacentHTML('afterbegin', card);
+  }
+}
+
+createCard();
+
+document.querySelectorAll('.sp-button').forEach((btn, ind) => {
+  btn.addEventListener('click', () => {
+    showModal(ind);
+  });
+});
+
 
 // CONTACT FORM VALIDATION
 const form = document.forms[0];

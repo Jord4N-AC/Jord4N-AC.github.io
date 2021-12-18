@@ -65,7 +65,7 @@
 /* Section 2 */
 #section-2 {
   justify-content: center;
-  gap: 142px 142px;
+  gap: 120px;
   margin: 140px;
   padding: 0;
 
@@ -111,7 +111,8 @@
 .card img {
   display: inline-block;
   margin: 24px;
-  width: 100%;
+
+  /* width: 100%; */
 }
 
 /* Grid Areas to change content order on .card1 and .card2  */
@@ -209,6 +210,15 @@
 }
 
 /* MODAL_CONTENT_STYLE */
+.modal-container {
+  margin: 1% 3%;
+  width: 70vw;
+}
+
+.modal-container:hover {
+  width: 70vw;
+}
+
 .modal-container .img-proj {
   width: 100%;
   height: auto;
@@ -248,9 +258,9 @@
   flex-wrap: nowrap;
 }
 
-.btns-container .btn {
+/* .btns-container .btn {
   margin-right: 20px;
-}
+} */
 
 /* Email Validation */
 #contact form .show {
