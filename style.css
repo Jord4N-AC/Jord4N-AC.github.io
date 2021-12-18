@@ -565,4 +565,5 @@ textarea:focus {
   margin-top: 12px;
   padding: 10px;
   z-index: 2;
+  transition: all 0.45s;
 }
