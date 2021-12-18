@@ -251,3 +251,9 @@
 .btns-container .btn {
   margin-right: 20px;
 }
+
+/* Email Validation */
+#contact form .show {
+  width: auto;
+  margin-right: auto;
+}

@@ -174,12 +174,12 @@ function showMsg() {
   form.addEventListener("submit", (e) => {
     e.preventDefault();
     if (email.value.toLowerCase() !== email.value) {
-      msg.textContent = "E-mail should be in Lower Case, Form not sent";
+      msg.textContent = "E-mail should be in LOWER CASE, Form NOT submitted";
       msg.classList.add("show");
     } else {
       form.submit();
     }
-  });
+  });  
 }
 
 showMsg();
