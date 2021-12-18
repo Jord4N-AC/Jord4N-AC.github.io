@@ -43,7 +43,9 @@ const popupContent = [
       "images/cardsWorksSection/github_btn.svg"
     ],
     btnText: [
-      "See Project"
+      "See Project",
+      "See&nbsp;live",
+      "See&nbsp;Source"
     ]
   },
   {
@@ -114,9 +116,10 @@ const popupContent = [
 // Form Validation
 
 function showModal(ind) {
-  const section = document.querySelectorAll(".card");
+  const section = document.querySelectorAll(".card");  
+  
   const modalHtml = `
-      <div class="modal-container">
+      <div class="modal-container" style="filter: blur(0px);">
           <div class="header-container">
               <div>
                   <h3 class="proj-header">${popupContent[ind].titleProject}</h3>
@@ -148,11 +151,11 @@ function showModal(ind) {
                   </ul>
                   <div class="btns-container">
                       <a class="btn sp-button" href="${popupContent[ind].links[0]}">
-                          See live
+                          ${popupContent[0].btnText[1]}
                           <img src="${popupContent[ind].icons[1]}" alt="See live icon">
                       </a>
                       <a class="btn sp-button" href="${popupContent[ind].links[1]}">
-                          See Source
+                          ${popupContent[0].btnText[2]}
                           <img src="${popupContent[ind].icons[2]}" alt="Github icon">
                       </a>
                   </div>
@@ -160,22 +163,22 @@ function showModal(ind) {
           </div>
       </div>
   `;
-
+  
   section[ind].insertAdjacentHTML("afterbegin", modalHtml);
-
+  
   const closeModalIcon = document.querySelector(".x-icon");
   const modal = document.querySelector(".modal-container");
-
+  
   closeModalIcon.addEventListener("click", () => {
-    modal.remove();
+    modal.remove();    
   });
 }
 
 function createCard() {
-  const cardSection = document.querySelector(".card-container");
+  const cardSection = document.querySelector("#section-2");
   for (let i = popupContent.length - 1; i >= 0; i -= 1) {
     const card = `
-    <div class="card card${i + 1}">
+    <div id="card${i + 1}" class="card card${i + 1}">
     <img class="img-proj" src="${popupContent[i].imgProject}" alt="Project 1 Image">
     <div class="proj-content">
         <h3 class="proj-header">${popupContent[i].titleProject}</h3>
@@ -192,7 +195,7 @@ function createCard() {
             <li>${popupContent[i].technologies[1]}</li>
             <li>${popupContent[i].technologies[3]}</li>
         </ul>
-        <a class="btn sp-button">${popupContent[i].btnText[0]}</a>  
+        <a href="#card${i + 1}" class="btn sp-button">${popupContent[i].btnText[0]}</a>
     </div>
   </div>
     `;
