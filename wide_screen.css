@@ -64,9 +64,8 @@
 
 /* Section 2 */
 #section-2 {
-  box-sizing: border-box;
   justify-content: center;
-  gap: 142px 142px;
+  gap: 120px;
   margin: 140px;
   padding: 0;
 
@@ -76,10 +75,6 @@
     "DvCard4"
     "DvCard1"
     "DvCard2";
-}
-
-.tags {
-  width: 70%;
 }
 
 .tags li {
@@ -114,8 +109,10 @@
 }
 
 .card img {
+  display: inline-block;
   margin: 24px;
-  width: auto;
+
+  /* width: 100%; */
 }
 
 /* Grid Areas to change content order on .card1 and .card2  */
@@ -210,4 +207,53 @@
 
 #short-line {
   display: none;
+}
+
+/* MODAL_CONTENT_STYLE */
+.modal-container {
+  margin: 1% 3%;
+  width: 70vw;
+}
+
+.modal-container:hover {
+  width: 70vw;
+}
+
+.modal-container .img-proj {
+  width: 100%;
+  height: auto;
+}
+
+.content-container {
+  flex-direction: row;
+  margin-top: 30px;
+}
+
+.content-container p {
+  width: 70%;
+  margin-right: 15px;
+  height: 40vh;
+}
+
+.content-container .tech-btns-container {
+  width: 60%;
+}
+
+.tech-btns-container .tags {
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  width: auto;
+}
+
+.tech-btns-container .tags li {
+  margin: 5px;
+}
+
+.tech-btns-container .hide {
+  display: inline-block;
+}
+
+.btns-container {
+  justify-content: flex-start;
+  flex-wrap: nowrap;
 }
